@@ -1,6 +1,7 @@
 trigger OpportunityTrigger on Opportunity (after insert, after update, after delete, after undelete) {
     //testing
     // git testing
+    // test 25  
     if (Trigger.isInsert && Trigger.isAfter) {
         // Insert logic
    Set<Id> accountIds = new Set<Id>();
